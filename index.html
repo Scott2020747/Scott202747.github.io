@@ -1,12 +1,327 @@
 <!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Ohr Computing and Software</title>
-  </head>
-  <body>
-    <h1>Delivering enterprise computing systems and software solutions</h1>
-    <p>Partner with us</p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="OHR Computing & Software Systems delivers enterprise computing systems and bespoke ERP software solutions for airports, banks, and large organisations." />
+  <title>OHR Computing & Software Systems</title>
+
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="assets/favicon.svg" />
+</head>
+<body>
+  <!-- Top Bar -->
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="OHR home">
+        <span class="brand__mark">OHR</span>
+        <span class="brand__text">
+          <span class="brand__name">OHR Computing & Software Systems</span>
+          <span class="brand__tag">Enterprise computing • Bespoke ERP • Systems integration</span>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Main navigation">
+        <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+
+        <div class="nav__links" id="navLinks">
+          <a href="#solutions">Solutions</a>
+          <a href="#industries">Industries</a>
+          <a href="#process">Approach</a>
+          <a href="#about">About</a>
+          <a href="#contact" class="btn btn--small">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main id="top">
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="pill">Enterprise-grade delivery • Australia & Pacific</p>
+          <h1>Delivering enterprise computing systems and software solutions.</h1>
+          <p class="hero__lead">
+            We design, supply, and integrate high-performance computing hardware packages for large organisations
+            — and build bespoke ERP software solutions tailored to your operations.
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn" href="#contact">Request a consultation</a>
+            <a class="btn btn--ghost" href="#solutions">Explore solutions</a>
+          </div>
+
+          <div class="trust">
+            <div class="trust__item">
+              <span class="trust__kpi">End-to-end</span>
+              <span class="trust__label">design → supply → install → support</span>
+            </div>
+            <div class="trust__item">
+              <span class="trust__kpi">Mission-critical</span>
+              <span class="trust__label">secure, reliable, documented delivery</span>
+            </div>
+            <div class="trust__item">
+              <span class="trust__kpi">Tailored ERP</span>
+              <span class="trust__label">fit-for-purpose workflows & reporting</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__panel" aria-label="Highlights">
+          <div class="panel__card">
+            <h3>What we deliver</h3>
+            <ul class="checklist">
+              <li>Enterprise compute & server packages</li>
+              <li>Storage, backup, and DR readiness</li>
+              <li>Network & security integration</li>
+              <li>Bespoke ERP systems & portals</li>
+              <li>Deployment, training & ongoing support</li>
+            </ul>
+          </div>
+
+          <div class="panel__card panel__card--accent">
+            <h3>Fast navigation</h3>
+            <div class="quicklinks">
+              <a href="#industries">Industries we serve</a>
+              <a href="#process">How we work</a>
+              <a href="#contact">Get a quote</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Solutions -->
+    <section id="solutions" class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2>Solutions</h2>
+          <p>
+            Choose complete packaged delivery or modular services. We can supply hardware, integrate systems,
+            and build bespoke software — or partner with your existing teams.
+          </p>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="card">
+            <h3>Enterprise Computing Packages</h3>
+            <p>
+              Servers, workstations, virtualisation-ready stacks, endpoint fleet rollouts, and secure configurations
+              designed for high uptime environments.
+            </p>
+            <ul class="bullets">
+              <li>Architecture & sizing</li>
+              <li>Procurement & staging</li>
+              <li>Installation & hardening</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Systems Integration & Infrastructure</h3>
+            <p>
+              Networking, identity, access control, monitoring, backup/DR, and documentation for operational continuity.
+            </p>
+            <ul class="bullets">
+              <li>Network & security integration</li>
+              <li>Observability & alerting</li>
+              <li>Backup, DR & compliance readiness</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Bespoke ERP & Business Software</h3>
+            <p>
+              Tailored ERP software, workflow automation, dashboards, and reporting systems aligned to your processes.
+            </p>
+            <ul class="bullets">
+              <li>Requirements → build → training</li>
+              <li>Role-based access & audit trails</li>
+              <li>Integrations (APIs, imports, exports)</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Industries -->
+    <section id="industries" class="section section--alt">
+      <div class="container">
+        <div class="section__head">
+          <h2>Industries we serve</h2>
+          <p>Experience aligned to high availability, security, and operational complexity.</p>
+        </div>
+
+        <div class="grid grid--4">
+          <div class="mini">
+            <h3>Airports & Terminals</h3>
+            <p>Operational systems, secure networks, resilient compute, and uptime-focused deployments.</p>
+          </div>
+          <div class="mini">
+            <h3>Banking & Finance</h3>
+            <p>Security-first infrastructure, controlled change management, and audit-ready documentation.</p>
+          </div>
+          <div class="mini">
+            <h3>Government & Utilities</h3>
+            <p>Reliable systems delivery, asset tracking, reporting, and compliance support.</p>
+          </div>
+          <div class="mini">
+            <h3>Enterprise & Logistics</h3>
+            <p>ERP workflows, inventory, procurement, approvals, and integration with existing platforms.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process -->
+    <section id="process" class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2>Our approach</h2>
+          <p>A clear, low-risk delivery process built for enterprise environments.</p>
+        </div>
+
+        <ol class="steps">
+          <li>
+            <span class="steps__num">1</span>
+            <div>
+              <h3>Discovery & Requirements</h3>
+              <p>We map business needs, constraints, timelines, and security requirements.</p>
+            </div>
+          </li>
+          <li>
+            <span class="steps__num">2</span>
+            <div>
+              <h3>Solution Design</h3>
+              <p>Architecture, sizing, BOM, implementation plan, and acceptance criteria.</p>
+            </div>
+          </li>
+          <li>
+            <span class="steps__num">3</span>
+            <div>
+              <h3>Build, Integrate & Deploy</h3>
+              <p>Staging, testing, change windows, rollout, and go-live support.</p>
+            </div>
+          </li>
+          <li>
+            <span class="steps__num">4</span>
+            <div>
+              <h3>Train & Support</h3>
+              <p>Handover docs, admin training, and ongoing maintenance options.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section section--alt">
+      <div class="container about">
+        <div>
+          <h2>About OHR</h2>
+          <p>
+            OHR Computing & Software Systems specialises in enterprise computing and tailored business software.
+            We deliver practical, operationally-sound solutions designed to be maintained and expanded over time.
+          </p>
+          <p class="muted">
+            Want to add credibility? Include certifications, partner logos, case studies, or a short client list here later.
+          </p>
+        </div>
+
+        <div class="card card--tight">
+          <h3>Key capabilities</h3>
+          <ul class="checklist">
+            <li>Enterprise architecture & planning</li>
+            <li>Procurement, staging & deployment</li>
+            <li>Secure networks & access control</li>
+            <li>ERP software design & delivery</li>
+            <li>Documentation, training & support</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2>Contact</h2>
+          <p>Tell us what you’re building. We’ll respond with next steps and options.</p>
+        </div>
+
+        <div class="contact">
+          <div class="card">
+            <h3>Request a consultation</h3>
+
+            <!-- Static site note: this is a mailto link for now.
+                 Later you can replace with Formspree/Netlify/Google Forms. -->
+            <form onsubmit="return sendEmail(event)">
+              <div class="form__row">
+                <label>
+                  Name
+                  <input required name="name" placeholder="Your name" />
+                </label>
+                <label>
+                  Company
+                  <input name="company" placeholder="Company name" />
+                </label>
+              </div>
+
+              <label>
+                Email
+                <input required type="email" name="email" placeholder="you@company.com" />
+              </label>
+
+              <label>
+                What do you need?
+                <textarea required name="message" rows="5" placeholder="Briefly describe your project, timeline, and any requirements."></textarea>
+              </label>
+
+              <button class="btn" type="submit">Send enquiry</button>
+              <p class="muted small">
+                This button opens your email client. If you want a real web form that receives messages automatically,
+                tell me and I’ll set up a free form service for GitHub Pages.
+              </p>
+            </form>
+          </div>
+
+          <div class="card card--tight">
+            <h3>Direct</h3>
+            <p class="muted">Update these details anytime in <code>index.html</code>.</p>
+            <div class="direct">
+              <div><span class="direct__k">Email</span><span class="direct__v">contact@ohrcs.com</span></div>
+              <div><span class="direct__k">Phone</span><span class="direct__v">+61 XXX XXX XXX</span></div>
+              <div><span class="direct__k">Location</span><span class="direct__v">Brisbane, Australia</span></div>
+            </div>
+
+            <hr class="sep" />
+
+            <h3>What to include</h3>
+            <ul class="bullets">
+              <li>Industry (airport, banking, etc.)</li>
+              <li>Scope (hardware package / ERP / both)</li>
+              <li>Timeline and constraints</li>
+              <li>Security/compliance needs</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p>© <span id="year"></span> OHR Computing & Software Systems. All rights reserved.</p>
+        <div class="footer__links">
+          <a href="#top">Back to top</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
 </html>
